@@ -13,8 +13,6 @@
 		FA93AB0921E6992C00822DF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA93AB0821E6992C00822DF7 /* Assets.xcassets */; };
 		FA93AB0C21E6992C00822DF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA93AB0A21E6992C00822DF7 /* LaunchScreen.storyboard */; };
 		FADED8FD21EBF4DE0090C41C /* dice_roll.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FADED8FA21EBF4DE0090C41C /* dice_roll.mp3 */; };
-		FADED8FE21EBF4DE0090C41C /* king_dice.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FADED8FB21EBF4DE0090C41C /* king_dice.mp3 */; };
-		FADED8FF21EBF4DE0090C41C /* disco_dice_3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FADED8FC21EBF4DE0090C41C /* disco_dice_3.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,8 +24,6 @@
 		FA93AB0B21E6992C00822DF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA93AB0D21E6992C00822DF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FADED8FA21EBF4DE0090C41C /* dice_roll.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dice_roll.mp3; sourceTree = "<group>"; };
-		FADED8FB21EBF4DE0090C41C /* king_dice.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = king_dice.mp3; sourceTree = "<group>"; };
-		FADED8FC21EBF4DE0090C41C /* disco_dice_3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = disco_dice_3.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +71,6 @@
 			isa = PBXGroup;
 			children = (
 				FADED8FA21EBF4DE0090C41C /* dice_roll.mp3 */,
-				FADED8FC21EBF4DE0090C41C /* disco_dice_3.mp3 */,
-				FADED8FB21EBF4DE0090C41C /* king_dice.mp3 */,
 			);
 			path = "Shake sound";
 			sourceTree = "<group>";
@@ -139,11 +133,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FADED8FE21EBF4DE0090C41C /* king_dice.mp3 in Resources */,
 				FADED8FD21EBF4DE0090C41C /* dice_roll.mp3 in Resources */,
 				FA93AB0C21E6992C00822DF7 /* LaunchScreen.storyboard in Resources */,
 				FA93AB0921E6992C00822DF7 /* Assets.xcassets in Resources */,
-				FADED8FF21EBF4DE0090C41C /* disco_dice_3.mp3 in Resources */,
 				FA93AB0721E6992B00822DF7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
